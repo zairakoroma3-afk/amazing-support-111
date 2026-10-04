@@ -43,3 +43,11 @@ UPLOAD TO GITHUB:
 26. assets/
 
 Upload the full assets folder without changing the filenames.
+
+
+TV VIDEO UPDATE
+- Homepage now includes ONE horizontal TV-style video section.
+- Video shape is 16:9, matching the uploaded 1920x1080 video.
+- The exact video filename is AS.mp4.
+- AS.mp4 belongs in the MAIN/ROOT of GitHub beside index.html.
+- This ZIP already includes AS.mp4, so if you upload everything inside it, you do not need to add the video separately.
