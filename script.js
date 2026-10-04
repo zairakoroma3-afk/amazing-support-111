@@ -1,13 +1,16 @@
 
-const menuToggle = document.querySelector('.menu-toggle');
-const nav = document.querySelector('.nav');
-menuToggle?.addEventListener('click', () => nav?.classList.toggle('open'));
+const toggle = document.querySelector('.menu-toggle');
+const nav = document.getElementById('mainNav');
 
-document.querySelectorAll('.dropdown > button').forEach(btn => {
-  btn.addEventListener('click', (e) => {
-    if (window.innerWidth <= 1000) {
-      e.preventDefault();
-      const parent = btn.closest('.dropdown');
+toggle?.addEventListener('click', () => {
+  nav?.classList.toggle('open');
+});
+
+document.querySelectorAll('.dropdown > button').forEach(button => {
+  button.addEventListener('click', (event) => {
+    if (window.innerWidth <= 900) {
+      event.preventDefault();
+      const parent = button.closest('.dropdown');
       parent?.classList.toggle('open');
     }
   });

@@ -2,39 +2,40 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Services | Amazing Support LLC</title>
-<meta name="description" content="Detailed non-medical home support services from Amazing Support LLC.">
+<meta name="description" content="Explore detailed non-medical home support services from Amazing Support LLC.">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 <header class="site-header">
   <div class="topbar">
-    <div class="wrap topbar-inner">
-      <span>☎ <a href="tel:+17038709966">703-870-9966</a></span>
-      <span>✉ <a href="mailto:Amazingsupport26@gmail.com">Amazingsupport26@gmail.com</a></span>
+    <div class="wrap topbar-grid">
+      <a href="tel:+17038709966">☎ 703-870-9966</a>
+      <a href="mailto:Amazingsupport26@gmail.com">✉ Amazingsupport26@gmail.com</a>
       <span>📍 10 G Street NW, Suite 631, Washington, D.C.</span>
       <span>🕘 Mon–Fri: 9:00 AM–5:00 PM</span>
+      <span class="top-motto">Supporting Independence. Strengthening Families. Enriching Lives.</span>
     </div>
   </div>
 
   <div class="wrap navrow">
     <a class="brand" href="index.html">
       <img src="assets/amazing-support-logo.png" alt="Amazing Support LLC logo">
-      <div>
-        <strong>AMAZING SUPPORT LLC</strong>
+      <div class="brand-copy">
+        <strong>AMAZING<br>SUPPORT LLC</strong>
         <span>PEOPLE • SUPPORT • BRIGHTER LIVES</span>
       </div>
     </a>
 
-    <button class="menu-toggle" aria-label="Open menu">☰</button>
+    <button class="menu-toggle" aria-label="Open navigation">☰</button>
 
-    <nav class="nav">
+    <nav class="nav" id="mainNav">
       <a href="index.html">Home</a>
 
       <div class="dropdown">
-        <button>About ▾</button>
+        <button type="button">About⌄</button>
         <div class="dropdown-menu">
           <a href="about.html">About Amazing Support</a>
           <a href="leadership.html">Leadership</a>
@@ -43,9 +44,9 @@
       </div>
 
       <div class="dropdown">
-        <button>Services ▾</button>
-        <div class="dropdown-menu services-menu">
-          <a href="services.html">All Services</a>
+        <button type="button">Services⌄</button>
+        <div class="dropdown-menu service-drop">
+          <a href="services.html"><b>All Services</b></a>
           <a href="personal-care.html">Personal Care</a>
           <a href="companionship.html">Companionship</a>
           <a href="household-support.html">Household Support</a>
@@ -58,7 +59,7 @@
       </div>
 
       <div class="dropdown">
-        <button>Locations ▾</button>
+        <button type="button">Locations⌄</button>
         <div class="dropdown-menu">
           <a href="locations.html">All Locations</a>
           <a href="washington-dc.html">Washington, D.C.</a>
@@ -66,7 +67,7 @@
       </div>
 
       <div class="dropdown">
-        <button>Resources ▾</button>
+        <button type="button">Resources⌄</button>
         <div class="dropdown-menu">
           <a href="resources.html">Client & Family Resources</a>
           <a href="faq.html">Frequently Asked Questions</a>
@@ -75,9 +76,9 @@
       </div>
 
       <div class="dropdown">
-        <button>Careers ▾</button>
+        <button type="button">Careers⌄</button>
         <div class="dropdown-menu">
-          <a href="careers.html">Why Work With Us</a>
+          <a href="careers.html">Careers</a>
           <a href="apply.html">Apply Now</a>
         </div>
       </div>
@@ -86,107 +87,154 @@
     </nav>
 
     <div class="header-actions">
-      <a class="btn gold" href="apply.html">APPLY</a>
-      <a class="btn outline" href="request-care.html">REQUEST CARE</a>
+      <a class="btn gold" href="apply.html">APPLY →</a>
+      <a class="btn outline" href="request-care.html">REQUEST CARE →</a>
     </div>
   </div>
 </header>
 
 <main>
-<section class="page-hero service-hero"><div class="wrap"><span class="eyebrow">OUR SERVICES</span><h1>Detailed Non-Medical Home Support Services</h1><p>Explore each service below to learn exactly what it can include, what it does not include, and how it can fit into an individualized service plan.</p></div></section>
-<section class="section"><div class="wrap service-grid large">
+<section class="page-hero">
+  <div class="wrap narrow">
+    <span class="eyebrow">OUR SERVICES</span>
+    <h1>Detailed Support Options for Different Everyday Needs.</h1>
+    <p>Each service page explains what the service may include, how it can help, and how it fits within an individualized non-medical home support plan.</p>
+  </div>
+</section>
 
-<a class="service-card detailed" href="personal-care.html">
-<div class="service-icon">◆</div>
-<h2>Personal Care</h2>
-<p>Personal care support is designed for individuals who may need extra help with daily routines while still wanting to stay involved in their own choices and routines. Our team can assist with bathing, grooming, dressing, toileting, hygiene, and other everyday activities in a respectful and private way.</p>
-<p>We focus on helping each person maintain dignity, comfort, and as much independence as possible. Support is based on the client’s service plan and personal preferences, a...</p>
-<span class="learn">READ FULL SERVICE DETAILS →</span>
-</a>
+<section class="section service-intro">
+  <div class="wrap">
+    <div class="intro-panel">
+      <h2>Support Should Be Clear Before It Begins.</h2>
+      <p>Families should not have to guess what a service means. We explain our service categories in detail so clients can understand the type of help that may be available and discuss which tasks belong in the individualized service plan.</p>
+    </div>
 
-<a class="service-card detailed" href="companionship.html">
-<div class="service-icon">◆</div>
-<h2>Companionship</h2>
-<p>Companionship is about meaningful human connection. It may include conversation, reading together, playing simple games, taking walks, listening to music, doing light recreational activities, or simply spending time with someone who would benefit from a consistent and friendly presence.</p>
-<p>For some clients, regular companionship can help reduce isolation and support a more positive daily routine. Caregivers are encouraged to learn what each client enjoys an...</p>
-<span class="learn">READ FULL SERVICE DETAILS →</span>
-</a>
+    <div class="service-large-grid">
+      
+    <a class="service-large-card" href="personal-care.html">
+      <img src="assets/personal-care.jpg" alt="Personal Care">
+      <div>
+        <h2>Personal Care</h2>
+        <p>Personal care support is designed for individuals who need extra help with daily routines while still wanting to remain involved in their own choices and care. Our caregivers focus on dignity, privacy, comfort, and independence during every visit.</p>
+        <p class="small-text">Every client has different preferences about how personal routines should be completed. We take time to understand those preferences and encourage caregivers to support the client rather than take over tasks the client can still perform independently.</p>
+        <span>READ FULL SERVICE DETAILS →</span>
+      </div>
+    </a>
+    
+    <a class="service-large-card" href="companionship.html">
+      <img src="assets/companionship.jpg" alt="Companionship">
+      <div>
+        <h2>Companionship</h2>
+        <p>Companionship is more than simply being present. It is about building a respectful connection that helps a client feel seen, heard, engaged, and less isolated.</p>
+        <p class="small-text">Caregivers are encouraged to learn what each client enjoys and to create appropriate activities around those interests. Some clients prefer conversation; others enjoy music, reading, television, games, or simply having someone nearby.</p>
+        <span>READ FULL SERVICE DETAILS →</span>
+      </div>
+    </a>
+    
+    <a class="service-large-card" href="household-support.html">
+      <img src="assets/household-support.jpg" alt="Household Support">
+      <div>
+        <h2>Household Support</h2>
+        <p>Household support helps clients keep their everyday living space cleaner, safer, and easier to manage when routine chores become difficult.</p>
+        <p class="small-text">This service is focused on routine household tasks connected to the client’s daily living needs. It is not intended to replace heavy-duty commercial cleaning, major home maintenance, or specialty services.</p>
+        <span>READ FULL SERVICE DETAILS →</span>
+      </div>
+    </a>
+    
+    <a class="service-large-card" href="mobility-assistance.html">
+      <img src="assets/mobility-assistance.jpg" alt="Mobility Assistance">
+      <div>
+        <h2>Mobility Assistance</h2>
+        <p>Mobility assistance helps clients complete everyday movement more safely while encouraging them to participate as much as they are able.</p>
+        <p class="small-text">Caregivers follow the client’s service plan and use safe techniques within the limits of their role and training.</p>
+        <span>READ FULL SERVICE DETAILS →</span>
+      </div>
+    </a>
+    
+    <a class="service-large-card" href="medication-reminders.html">
+      <img src="assets/medication-reminders.jpg" alt="Medication Reminders">
+      <div>
+        <h2>Medication Reminders</h2>
+        <p>Medication reminder support is limited to non-clinical reminders and routine assistance for medications that the client manages and takes independently.</p>
+        <p class="small-text">Caregivers do not independently prescribe medications, change dosages, make clinical medication decisions, or perform tasks outside the authorization of their role.</p>
+        <span>READ FULL SERVICE DETAILS →</span>
+      </div>
+    </a>
+    
+    <a class="service-large-card" href="nutrition-support.html">
+      <img src="assets/nutrition-support.jpg" alt="Nutrition Support">
+      <div>
+        <h2>Nutrition Support</h2>
+        <p>Nutrition support helps make regular meals easier to maintain by providing practical help before, during, and after mealtimes.</p>
+        <p class="small-text">Caregivers should respect cultural preferences, food choices, household routines, and documented restrictions or instructions.</p>
+        <span>READ FULL SERVICE DETAILS →</span>
+      </div>
+    </a>
+    
+    <a class="service-large-card" href="respite-care.html">
+      <img src="assets/respite-care.jpg" alt="Respite Care">
+      <div>
+        <h2>Respite Care</h2>
+        <p>Respite care supports both the client and the family caregiver by providing dependable temporary assistance in the home.</p>
+        <p class="small-text">Family caregiving can be meaningful and demanding. Respite support provides time for family caregivers to rest, manage responsibilities, or step away knowing that agreed-upon non-medical support is in place.</p>
+        <span>READ FULL SERVICE DETAILS →</span>
+      </div>
+    </a>
+    
+    <a class="service-large-card" href="oversight-safety.html">
+      <img src="assets/oversight-safety.jpg" alt="Oversight & Safety">
+      <div>
+        <h2>Oversight & Safety</h2>
+        <p>Oversight and safety support adds another layer of everyday awareness for clients who may benefit from someone noticing environmental risks or changes in routine.</p>
+        <p class="small-text">This service does not replace clinical monitoring or emergency medical care. It is focused on everyday observation and communication within the non-medical caregiver role.</p>
+        <span>READ FULL SERVICE DETAILS →</span>
+      </div>
+    </a>
+    
+    </div>
+  </div>
+</section>
+</main>
 
-<a class="service-card detailed" href="household-support.html">
-<div class="service-icon">◆</div>
-<h2>Household Support</h2>
-<p>Household support helps clients maintain a comfortable and organized living environment. Services may include light housekeeping in client-occupied areas, laundry, changing bed linens, wiping surfaces, sweeping, vacuuming, light mopping, taking out trash, and keeping frequently used spaces tidy.</p>
-<p>This support is intended to help with routine home tasks that may become difficult because of age, disability, recovery, or other limitations. It does not replace heavy-d...</p>
-<span class="learn">READ FULL SERVICE DETAILS →</span>
-</a>
-
-<a class="service-card detailed" href="mobility-assistance.html">
-<div class="service-icon">◆</div>
-<h2>Mobility Assistance</h2>
-<p>Mobility assistance focuses on helping clients move around their home and complete everyday transitions more safely. Support may include assistance with walking, moving from bed to chair, using mobility devices, changing positions, or navigating common areas of the home.</p>
-<p>Caregivers follow the client’s established service plan and use safe support techniques within their role. They are expected to report changes in balance, strength, comfo...</p>
-<span class="learn">READ FULL SERVICE DETAILS →</span>
-</a>
-
-<a class="service-card detailed" href="medication-reminders.html">
-<div class="service-icon">◆</div>
-<h2>Medication Reminders</h2>
-<p>Medication reminder services are limited to reminders and routine support for medications that a client manages and takes independently. Caregivers may provide verbal reminders, help a client locate an already-prepared medication container, or remind the client that it is time to follow their own medication routine.</p>
-<p>Caregivers do not independently prescribe, change, or clinically manage medications. Any direct medication administration must be performed by an appropriately authorized...</p>
-<span class="learn">READ FULL SERVICE DETAILS →</span>
-</a>
-
-<a class="service-card detailed" href="nutrition-support.html">
-<div class="service-icon">◆</div>
-<h2>Nutrition Support</h2>
-<p>Nutrition support can include meal planning, grocery assistance, routine meal preparation, cleanup, and non-clinical help during mealtimes. Meals should be prepared according to the client’s preferences and any documented dietary instructions available to the caregiver.</p>
-<p>Caregivers may help organize groceries, prepare simple meals, portion food, encourage regular meals, and assist with eating when that type of support is included in the s...</p>
-<span class="learn">READ FULL SERVICE DETAILS →</span>
-</a>
-
-<a class="service-card detailed" href="respite-care.html">
-<div class="service-icon">◆</div>
-<h2>Respite Care</h2>
-<p>Respite support provides temporary assistance so family caregivers can rest, attend appointments, work, run errands, or manage other responsibilities. During respite visits, Amazing Support LLC can provide agreed-upon non-medical services that help the client remain comfortable and supported.</p>
-<p>Respite care can be scheduled for short periods or recurring visits depending on client needs and company availability. The specific tasks provided during each visit are ...</p>
-<span class="learn">READ FULL SERVICE DETAILS →</span>
-</a>
-
-<a class="service-card detailed" href="oversight-safety.html">
-<div class="service-icon">◆</div>
-<h2>Oversight & Safety</h2>
-<p>Oversight and safety support includes routine observation of the client’s environment, attention to potential fall hazards, and reporting meaningful changes in condition, behavior, or daily functioning.</p>
-<p>Caregivers may help keep walking paths clear, notice unsafe clutter, make sure commonly used items are easy to reach, and communicate concerns to the appropriate supervis...</p>
-<span class="learn">READ FULL SERVICE DETAILS →</span>
-</a>
-</div></section></main>
 <footer class="footer">
   <div class="wrap footer-grid">
     <div class="footer-brand">
       <img src="assets/amazing-support-logo.png" alt="Amazing Support LLC logo">
-      <strong>Amazing Support LLC</strong>
-      <p>Supporting independence. Strengthening families. Enriching lives.</p>
+      <h3>Amazing Support LLC</h3>
+      <p>People • Support • Brighter Lives</p>
+      <p class="small">Dependable non-medical home support centered on dignity, comfort, communication, and independence.</p>
     </div>
+
     <div>
       <h4>Quick Links</h4>
+      <a href="index.html">Home</a>
       <a href="about.html">About Us</a>
       <a href="services.html">Services</a>
       <a href="locations.html">Locations</a>
-      <a href="careers.html">Careers</a>
+      <a href="leadership.html">Leadership</a>
     </div>
+
     <div>
       <h4>Helpful Links</h4>
-      <a href="request-care.html">Request Care</a>
+      <a href="careers.html">Careers</a>
       <a href="apply.html">Apply Now</a>
+      <a href="request-care.html">Request Care</a>
       <a href="resources.html">Resources</a>
       <a href="faq.html">FAQ</a>
+      <a href="referrals.html">Referrals</a>
     </div>
+
     <div>
-      <h4>Contact</h4>
-      <p>703-870-9966</p>
-      <p>Amazingsupport26@gmail.com</p>
-      <p>10 G Street NW, Suite 631<br>Washington, D.C.</p>
+      <h4>Contact Information</h4>
+      <p>☎ <a href="tel:+17038709966">703-870-9966</a></p>
+      <p>✉ <a href="mailto:Amazingsupport26@gmail.com">Amazingsupport26@gmail.com</a></p>
+      <p>📍 10 G Street NW, Suite 631, Washington, D.C.</p>
+      <p>🕘 Monday–Friday, 9:00 AM–5:00 PM</p>
     </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="wrap">© 2026 Amazing Support LLC. All Rights Reserved.</div>
   </div>
 </footer>
 <script src="script.js"></script></body></html>
