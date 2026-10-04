@@ -1,29 +1,19 @@
-AMAZING SUPPORT LLC — GITHUB READY FLAT VERSION
+AMAZING SUPPORT LLC — DETAILED WEBSITE
+
+This version is based on the detailed mockup direction:
+- caregiver/client hero background
+- white + gold design
+- Apply and Request Care at the top
+- dropdown menus
+- Locations dropdown with Washington, D.C.
+- detailed service cards
+- long service pages with more explanation
+- long CEO/leadership section
+- resources, FAQ, referrals, careers, forms
+- location photo included
 
 IMPORTANT:
-Upload the FILES INSIDE this package directly to the main/root of your new GitHub repository.
+The homepage hero currently uses a public Unsplash caregiving image URL as a background.
+If you want, replace it later with your own approved caregiving image in /assets and update styles.css.
 
-DO NOT upload the folder itself.
-
-Everything is already flat, so you do NOT need an assets folder.
-
-Upload:
-- index.html
-- about.html
-- apply.html
-- careers.html
-- contact.html
-- leadership.html
-- locations.html
-- request-care.html
-- services.html
-- styles.css
-- script.js
-- amazing-support-logo.png
-- 10-G-Street_002.jpg
-- README.txt
-
-This is the WHITE + GOLD version.
-No blue is used.
-Josephine Okafor, RN is included as CEO.
-No CEO photo is used.
+Forms use FormSubmit and may require first-use email activation.
